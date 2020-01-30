@@ -1,0 +1,246 @@
+* {
+	margin: 1em;
+	background-color: rgb(30, 60, 90);
+}
+.transparent-button {
+	padding: 0.3em 0.7em 0.3em 0.7em;
+	border-radius: 4%;
+	border-color: rgb(60, 120, 144);
+	border-width: 2px;
+	color: white;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.transparent-button:hover {
+	border-color: white;
+}
+#navbar a {
+	text-decoration: none;
+	display: inline-flex;
+}
+#navbar h2{
+	margin-left: 0em;
+}
+#logo {
+	margin: 1em;
+}
+#nav-head{
+	font-family: sans-serif;
+	color: white;
+	text-decoration: none;
+}
+
+#nav-links {
+	float: right;
+}
+#nav-links a {
+	font-family: sans-serif;
+	color: rgb(100, 140, 170);
+}
+
+#nav-links a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+#website-head h1 {
+	color: white;
+	font-size: 3.5em;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+#website-head {
+	margin: 1.5em;
+}
+
+.green-text {
+	color: rgb(0, 245, 190);
+	margin: 0;
+}
+
+#head-buttons {
+	text-align: center;
+}
+
+#download-section {
+	display: inline-block;
+}
+
+.download-button {
+	margin-top: 0px;
+	padding: 0.1em 0em 0.1em 0em;
+	background-color: rgb(255, 0, 67);
+	border-radius: 5%;
+	border: none;
+}
+
+.download-button:hover {
+	background-color: rgb(252, 0, 80);
+}
+
+.download-button p {
+	background-color: rgb(252,0 , 67);
+	color: white;
+	font-weight: bold;
+	font-size: 1.7em;
+	display: inline-block;
+}
+
+.download-button img {
+	background-color: rgb(252,0 , 67);
+	vertical-align: middle;
+}
+
+#version {
+	margin-top: 0.5em;
+	color: rgb(60, 115, 130);
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+#version a {
+	margin-left: 1px;
+	color: rgb(60, 115, 130);
+	text-decoration: none;
+}
+
+#version a:hover {
+	text-decoration: underline;
+}
+
+.video-button {
+	padding: 0.1em 0em 0.1em 0em;
+	border-radius: 5%;
+	border-color: rgb(60, 120, 144);
+	border-width: 2px;
+}
+
+.video-button:hover {
+	border-color: white;
+}
+
+.video-button p {
+	color: white;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+#timeline {
+	text-align: center;
+}
+
+#timeline video{
+	box-shadow: 5px 5px 25px black;
+}
+
+#activity {
+	margin: 10em 10em 5em 8em;
+}
+
+#activity-header {
+	color: white;
+	font-family: sans-serif;
+}
+
+#activity-header h1{
+	display: inline-block;
+}
+
+#activity-title {
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 2em;
+}
+
+#activity-text {
+	padding-left: 4em;
+	padding-right: 20em;
+}
+
+#activity-text p {
+	color: rgb(153, 173, 183);
+	font-family: sans-serif;
+	font-size: 1.4em;
+}
+.bold-text {
+	color: white;
+	margin: 0;
+	font-weight: bold;
+}
+
+#activity button {
+	margin-left: 5em;
+}
+
+#tracking {
+	margin-left: 8.5em;
+	margin-right: 23em; 
+}
+
+#tracking h1{
+	margin-top: 0.5em;
+	display: inline-block;
+	font-family: sans-serif;
+}
+#tracking-title {
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 2em;
+	margin-bottom: -1em;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	margin-left: 4em;
+}
+
+.item1 {
+	grid-row: 1;
+}
+
+.grid-deco {
+	width: 70px;
+	height: 5px;
+	background-color: rgb(0, 245, 190);
+}
+
+.grid-heads {
+	margin-left: 0.6em;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 1.7em;
+}
+
+.grid-text {
+	font-family: sans-serif;
+	color: rgb(150, 170, 180);
+	font-size: 1.2em;
+}
+
+#tracking-video iframe{
+	align-content: center;
+	padding-left: 1.5em;
+}
+.download-text {
+	font-family: sans-serif;
+	color: white;
+	text-align: right;
+}
+
+.download-b {
+	vertical-align: bottom;
+}
+
+
+.download-b button {
+	padding: 0.7em 1.5em 0.7em 1.5em;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+}
