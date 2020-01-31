@@ -126,6 +126,10 @@
 	font-size: 1.7em;
 	font-weight: bold;
 }
+
+.video-button i {
+	color: white;
+}
 #timeline {
 	text-align: center;
 }
