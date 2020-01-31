@@ -139,12 +139,14 @@
 }
 
 #activity-header {
+	display: inline-block;
 	color: white;
 	font-family: sans-serif;
 }
 
 #activity-header h1{
 	display: inline-block;
+	vertical-align: top;
 }
 
 #activity-title {
@@ -184,12 +186,22 @@
 	display: inline-block;
 	font-family: sans-serif;
 }
+
+#tracking-header {
+	display: inline-block;
+}
+
+#tracking-header h1 {
+	display: inline-block;
+	vertical-align: top;
+}
 #tracking-title {
 	font-family: sans-serif;
 	font-weight: bold;
 	color: white;
 	font-size: 2em;
 	margin-bottom: -1em;
+	margin-top: -1em;
 }
 
 .grid-container {
@@ -233,7 +245,8 @@
 }
 
 .download-b {
-	vertical-align: bottom;
+	display: inline;
+	bottom: 0;
 }
 
 
@@ -250,5 +263,4 @@
 	color: rgb(150, 170, 180);
 	font-family: sans-serif;
 	font-size: 0.8em;
-
 }
