@@ -394,3 +394,10 @@
 	font-size: 1.3em;
 	color: rgb(150, 170, 177);
 }
+
+.report-head p {
+	font-family: sans-serif;
+	color: rgb(82, 255, 0);
+	font-weight: bolder;
+	font-size: 1.5em;
+}
