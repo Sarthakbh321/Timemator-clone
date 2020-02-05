@@ -16,6 +16,8 @@
 .transparent-button:hover {
 	border-color: white;
 }
+
+
 #navbar a {
 	text-decoration: none;
 	display: inline-flex;
@@ -164,10 +166,13 @@
 }
 
 #activity-title {
+	position: relative;
 	font-family: sans-serif;
 	font-weight: bold;
 	color: white;
 	font-size: 2em;
+	z-index: 999;
+	margin-right: 5em;
 }
 
 #activity-text {
@@ -176,10 +181,20 @@
 }
 
 #activity-text p {
+	position: relative;
+	z-index: 999;
 	color: rgb(153, 173, 183);
 	font-family: sans-serif;
 	font-size: 1.4em;
 }
+
+.cut-image {
+	z-index: 0;
+	position: absolute;
+	right: -48%;
+	top: 220%;
+}
+
 .bold-text {
 	color: white;
 	margin: 0;
@@ -187,10 +202,13 @@
 }
 
 #activity button {
+	z-index: 998;
+	position: absolute;
 	margin-left: 5em;
 }
 
 #tracking {
+	margin-top: 35em;
 	margin-left: 8.5em;
 	margin-right: 23em; 
 }
@@ -206,9 +224,11 @@
 }
 
 #tracking-header h1 {
+	margin-top: 0.8em;
 	display: inline-block;
 	vertical-align: top;
 }
+
 #tracking-title {
 	font-family: sans-serif;
 	font-weight: bold;
@@ -292,6 +312,10 @@
 	font-family: sans-serif;
 	font-size: 1.5em;
 	margin-left: -1em; 
+}
+
+#workflow .grid-deco {
+	margin-left: 1.5em;
 }
 
 .vertical-deco {
@@ -455,6 +479,7 @@
 	color: rgb(81, 14, 52);
 	font-size: 0.5em;
 	font-weight: lighter;
+	border-radius: 15%;
 	border-style: solid;
 	border-width: 1px;
 	border-color: rgb(81, 14, 52);
