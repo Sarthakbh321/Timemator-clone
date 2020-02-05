@@ -395,9 +395,76 @@
 	color: rgb(150, 170, 177);
 }
 
+.report-head {
+	margin-left: 14em;
+}
+
 .report-head p {
 	font-family: sans-serif;
 	color: rgb(82, 255, 0);
 	font-weight: bolder;
+	font-size: 1.7em;
+	margin-left: 0.9em;
+}
+
+.report-head h1 {
+	font-family: sans-serif;
+	color: white;
+	font-size: 2.5em;
+	margin-left: 0.6em;
+	margin-top: 0.5em;
+}
+
+.report-tabs {
+	text-align: center;
+}
+
+.report-tabs img {
+	margin-top: 3em;
+	box-shadow: 5px 5px 50px black;
+}
+
+.r-tab {
+	margin: 0.7em;
+	width: 100px;
+	display: inline-block;
+	font-family: sans-serif;
+	color: rgb(44, 90, 99);
 	font-size: 1.5em;
+	padding: 20px 40px 0 40px;
+	border-top-style: solid;
+	border-top-width: 5px;
+	border-top-color: rgb(19, 45, 54);
+}
+
+.r-tab-active {
+	color: white;
+	border-top-color: rgb(82, 255, 0);
+}
+
+.r-tab:hover {
+	color: rgb(132, 251, 255);
+}
+
+.r-tab:hover .new-box {
+	color: red;
+	border-color: red;
+}
+
+.new-box {
+	color: rgb(81, 14, 52);
+	font-size: 0.5em;
+	font-weight: lighter;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(81, 14, 52);
+	padding: 0.1em;
+	margin-left: 0.5em;
+}
+
+.report-desc {
+	margin: 2em 20em 1em 20em;
+	font-family: sans-serif;
+	font-size: 1.3em;
+	color: rgb(151, 169, 177);
 }
